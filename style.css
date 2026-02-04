@@ -1,0 +1,34 @@
+body {
+  font-family: system-ui;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background: #fff;
+  color: #111;
+}
+
+body.dark {
+  background: #111;
+  color: #eee;
+}
+
+textarea {
+  width: 100%;
+  height: 220px;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
